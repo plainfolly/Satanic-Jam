@@ -12,8 +12,12 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();    
+        rb = this.GetComponent<Rigidbody2D>();
+        GameObject health = GameObject.FindGameObjectWithTag("Health");
+        Physics2D.IgnoreCollision(health.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+    
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -38,9 +42,12 @@ public class EnemyMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
-            GameManager.health -=1;
+            GameManager.health -= 1;
             Destroy(gameObject);
         }
+
+        
     }
 }
+
 
