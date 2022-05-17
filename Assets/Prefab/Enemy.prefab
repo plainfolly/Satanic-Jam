@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 8464612872088534158, guid: 99d286fa65ae4c646b0a009777bd10a7, type: 3}
-  moveSpeed: 1
+  moveSpeed: 2
 --- !u!1001 &3260055785855330684
 PrefabInstance:
   m_ObjectHideFlags: 0
