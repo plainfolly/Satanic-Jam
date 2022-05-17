@@ -14,11 +14,9 @@ public class EnemyMovement : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody2D>();
         GameObject health = GameObject.FindGameObjectWithTag("Health");
-        Physics2D.IgnoreCollision(health.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+     
     
     }
-    
-
     // Update is called once per frame
     void Update()
     {

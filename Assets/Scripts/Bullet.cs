@@ -16,8 +16,13 @@ public class Bullet : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
-        
-        
+
+        if (collision.gameObject.tag == "Fly")
+        {
+            GameManager.health += 1;
+            Destroy(collision.gameObject);
+            
+        }
     }
     
 }
