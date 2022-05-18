@@ -6250,6 +6250,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: A_MotherSpider
       objectReference: {fileID: 0}
+    - target: {fileID: 8475687464026308444, guid: 34fdd9a60616d2640a6569e640815bab, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475687464026308444, guid: 34fdd9a60616d2640a6569e640815bab, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475687464026308444, guid: 34fdd9a60616d2640a6569e640815bab, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475687464026308444, guid: 34fdd9a60616d2640a6569e640815bab, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8475687464026308445, guid: 34fdd9a60616d2640a6569e640815bab, type: 3}
       propertyPath: m_RootOrder
       value: 2
