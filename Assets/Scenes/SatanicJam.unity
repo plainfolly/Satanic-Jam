@@ -323,7 +323,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1f2966fb91cc66048b7c284e898a580b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.122
+  m_Volume: 0.072
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -720,7 +720,6 @@ GameObject:
   - component: {fileID: 207672086}
   - component: {fileID: 207672085}
   - component: {fileID: 207672084}
-  - component: {fileID: 207672083}
   - component: {fileID: 207672082}
   - component: {fileID: 207672081}
   - component: {fileID: 207672080}
@@ -756,8 +755,9 @@ GameObject:
   - component: {fileID: 207672093}
   - component: {fileID: 207672126}
   - component: {fileID: 207672125}
-  - component: {fileID: 207672123}
   - component: {fileID: 207672124}
+  - component: {fileID: 207672123}
+  - component: {fileID: 207672083}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -792,7 +792,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 207672076}
   selectedCommands:
-  - {fileID: 207672097}
+  - {fileID: 207672083}
   variables: []
   description: 
   stepPause: 0
@@ -894,11 +894,11 @@ MonoBehaviour:
   - {fileID: 207672098}
   - {fileID: 207672102}
   - {fileID: 207672099}
-  - {fileID: 207672082}
-  - {fileID: 207672083}
-  - {fileID: 207672123}
   - {fileID: 207672092}
   - {fileID: 207672116}
+  - {fileID: 207672082}
+  - {fileID: 207672123}
+  - {fileID: 207672083}
   suppressAllAutoSelections: 0
 --- !u!4 &207672077
 Transform:
@@ -978,7 +978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  volume: 0.472
+  volume: 0.323
   fadeDuration: 2
   waitUntilFinished: 0
 --- !u!114 &207672082
@@ -997,21 +997,26 @@ MonoBehaviour:
   indentLevel: 0
   volume: 0
   fadeDuration: 3
-  waitUntilFinished: 1
+  waitUntilFinished: 0
 --- !u!114 &207672083
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207672073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 18
+  itemId: 59
   indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MainMenu
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &207672084
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1029,7 +1034,7 @@ MonoBehaviour:
   duration: 2
   fadeOut: 1
   targetView: {fileID: 2044266795}
-  waitUntilFinished: 1
+  waitUntilFinished: 0
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 3846434937574752123}
@@ -1862,14 +1867,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 207672073}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 56
+  itemId: 58
   indentLevel: 0
-  volume: 1
-  fadeDuration: 3
-  waitUntilFinished: 0
+  duration: 3
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &207672124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5449,7 +5457,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9acd1685dba418d4d8983cc9a0f455dc, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.558
+  m_Volume: 0.152
   m_Pitch: 1
   Loop: 0
   Mute: 0
