@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class SoundOnTrigger : MonoBehaviour
 {
-    public AudioSource playSound;
+    public AudioSource Gore;
     void OnTriggerEnter(Collider other)
     {
 
-        playSound.Play();
+        void OnTriggerEnter(){
+Gore.Play();
+}
 
     }
 }
