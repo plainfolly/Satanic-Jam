@@ -7,6 +7,9 @@ TagManager:
   - Despawner
   - Health
   - Fly
+  - Laser
+  - Enemy
+  - Firefly
   layers:
   - Default
   - TransparentFX

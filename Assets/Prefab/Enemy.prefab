@@ -15,10 +15,9 @@ GameObject:
   - component: {fileID: 1949396460743728798}
   - component: {fileID: 1176355460}
   - component: {fileID: 6234870756624759003}
-  - component: {fileID: 2140004967159194578}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Despawner
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,19 +171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a0243f89c47e7e44a2f7d2caf52bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2140004967159194578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949396460743728799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d2d5cb8c14348c42bd7de4b18b4d0c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playSound: {fileID: 2158781865140186544}
 --- !u!1 &5842463017979852498
 GameObject:
   m_ObjectHideFlags: 0

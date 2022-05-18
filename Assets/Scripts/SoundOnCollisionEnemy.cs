@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class SoundOnCollisionEnemy : MonoBehaviour
 {
-    public AudioSource playSound;
+    [SerializeField]
+    AudioSource playSound;
     void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -13,6 +14,7 @@ public class SoundOnCollisionEnemy : MonoBehaviour
             playSound.Play();
             GameManager.health -= 1;
             Destroy(gameObject);
+            Debug.Log("Collider");
         }
 
     }

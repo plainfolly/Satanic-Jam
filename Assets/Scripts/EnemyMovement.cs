@@ -45,7 +45,8 @@ public class EnemyMovement : MonoBehaviour
             GameManager.health -= 1;
             Destroy(gameObject);
         }
-      
+
+    
     }
 }
 

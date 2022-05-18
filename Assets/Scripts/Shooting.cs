@@ -6,6 +6,7 @@ public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public AudioSource fireSound;
 
     public float bulletForce = 20f;
 
@@ -16,6 +17,7 @@ public class Shooting : MonoBehaviour
         if(Input.GetButtonDown("Fire1"))
         {
             Shoot();
+            GetComponent<AudioSource>().Play();
         }
     }
 
