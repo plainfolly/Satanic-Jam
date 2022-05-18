@@ -41,12 +41,10 @@ public class EnemyMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
-            
-            GameManager.health -= 1;
+            GameManager.TakeDamage();
+            GameManager.MakeInvincible();
             Destroy(gameObject);
         }
-
-    
     }
 }
 
