@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject heart1, heart2, heart3, gameOver;
-    public static int health;
-  
-    void Start ()
+    public static GameManager Instance { get; private set; }
+
+    void Awake()
     {
-        health = 3;
-        heart1.gameObject.SetActive (true);
-        heart2.gameObject.SetActive (true);
-        heart3.gameObject.SetActive (true);
-        gameOver.gameObject.SetActive (false);
+        if (Instance == null) { Instance = this; } else if (Instance != this) { Destroy(this); }
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
+    public GameObject heart1, heart2, heart3, gameOver;
+    public static int health;
+
+
+
     void Update()
     {
         if (health > 3)
@@ -24,9 +24,9 @@ public class GameManager : MonoBehaviour
         switch (health)
         {
             case 3:
-                heart1.gameObject.SetActive (true);
-                heart2.gameObject.SetActive (true);
-                heart3.gameObject.SetActive (true);
+                heart1.gameObject.SetActive(true);
+                heart2.gameObject.SetActive(true);
+                heart3.gameObject.SetActive(true);
                 break;
             case 2:
                 heart1.gameObject.SetActive(true);
@@ -48,4 +48,6 @@ public class GameManager : MonoBehaviour
                 break;
         }
     }
+
+   
 }

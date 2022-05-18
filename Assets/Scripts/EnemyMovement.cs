@@ -8,6 +8,7 @@ public class EnemyMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -40,11 +41,11 @@ public class EnemyMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Player")
         {
+            
             GameManager.health -= 1;
             Destroy(gameObject);
         }
-
-        
+      
     }
 }
 
