@@ -48,6 +48,6 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 7e02887d3d574e64c912728894998b2f, type: 3}
-  portraitsFace: 1
+  portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: Our most precious

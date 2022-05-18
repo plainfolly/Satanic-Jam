@@ -148,7 +148,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 3710023354351741121, guid: 127d94ad2ed139747812121b175f39f4, type: 3}
-  squashSound: {fileID: -5489858122373786466}
+  score: {fileID: 0}
+  EnemyScore: 10
+  FireflyScore: 20
 --- !u!95 &2833543139213477413
 Animator:
   serializedVersion: 3

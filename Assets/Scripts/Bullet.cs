@@ -5,7 +5,6 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public GameObject hitEffect;
-    public AudioSource squashSound;
     public GameObject score;
     public int EnemyScore = 10;
     public int FireflyScore = 20;
@@ -21,7 +20,6 @@ public class Bullet : MonoBehaviour
         GetComponent<AudioSource>().Play();
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
         Destroy(effect, 0.5f);
-        GetComponent<AudioSource>().Play(); 
         Destroy(gameObject);
        
 

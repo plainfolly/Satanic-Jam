@@ -299,7 +299,6 @@ GameObject:
   - component: {fileID: 8464612872088534157}
   - component: {fileID: 8464612872088534156}
   - component: {fileID: 8464612872088534155}
-  - component: {fileID: 3334880128170967279}
   m_Layer: 0
   m_Name: Mother
   m_TagString: Untagged
@@ -439,6 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 8464612871428203376}
   bulletPrefab: {fileID: 4377175076789377481, guid: da8682c1b7c216b42b7b1d7276a3a98f, type: 3}
+  fireSound: {fileID: 0}
   bulletForce: 5
 --- !u!95 &8464612872088534155
 Animator:
@@ -459,19 +459,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3334880128170967279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8464612872088534161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d2d5cb8c14348c42bd7de4b18b4d0c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playSound: {fileID: 6638865052128319828}
 --- !u!1001 &160017820968584315
 PrefabInstance:
   m_ObjectHideFlags: 0
