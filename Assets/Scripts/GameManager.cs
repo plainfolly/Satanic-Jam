@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     void Start ()
     {
+        DontDestroyOnLoad(this.gameObject);
         health = 3;
         heart1.gameObject.SetActive(true);
         heart2.gameObject.SetActive(true);
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     }
 
     void Update()
+
     {
         if (health > 3)
             health = 3;
@@ -46,8 +48,9 @@ public class GameManager : MonoBehaviour
                 gameOver.gameObject.SetActive(true);
                 Time.timeScale = 0;
                 break;
+                
         }
-    }
+    } 
 
    
 }

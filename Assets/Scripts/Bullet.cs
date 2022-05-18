@@ -6,6 +6,15 @@ public class Bullet : MonoBehaviour
 {
     public GameObject hitEffect;
     public AudioSource squashSound;
+    public GameObject score;
+    public int EnemyScore = 10;
+    public int FireflyScore = 20;
+
+
+    void Start()
+    {
+        score = GameObject.FindWithTag("Score");
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,6 +29,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            score.GetComponent<Score>().increaseScore(EnemyScore);
            
         }
 
@@ -27,6 +37,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            score.GetComponent<Score>().increaseScore(FireflyScore);
         }
 
         if (collision.gameObject.tag == "Fly")

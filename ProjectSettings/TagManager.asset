@@ -10,6 +10,7 @@ TagManager:
   - Laser
   - Enemy
   - Firefly
+  - Score
   layers:
   - Default
   - TransparentFX
