@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1502567697103426531}
   - component: {fileID: 6496421185599178366}
   - component: {fileID: 2833543139213477413}
-  - component: {fileID: -5489858122373786466}
+  - component: {fileID: 5983262565823156336}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Despawner
@@ -170,7 +170,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!82 &-5489858122373786466
+--- !u!82 &5983262565823156336
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -181,8 +181,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7d6aaa85b7932444f8745d7a33520009, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
+  m_PlayOnAwake: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 0
   Mute: 0
