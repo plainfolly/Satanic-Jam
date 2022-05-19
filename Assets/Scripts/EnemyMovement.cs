@@ -45,6 +45,12 @@ public class EnemyMovement : MonoBehaviour
             GameManager.MakeInvincible();
             Destroy(gameObject);
         }
+        if (collision.gameObject.tag == "MotherHurt")
+        {
+            
+            
+            Destroy(gameObject);
+        }
     }
 }
 

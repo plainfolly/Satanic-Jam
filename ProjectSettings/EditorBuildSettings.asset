@@ -23,10 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Interlude3.unity
     guid: 6a8b77e335b4d7940b87060aa5c054bf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: 96a66e1f51cd34645a35d656cbc48d79
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Outro.unity
     guid: 5b9d704ddedf8da4ab59fbebbf441aa7
   m_configObjects: {}

@@ -11,6 +11,7 @@ TagManager:
   - Enemy
   - Firefly
   - Score
+  - MotherHurt
   layers:
   - Default
   - TransparentFX

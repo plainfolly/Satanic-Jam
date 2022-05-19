@@ -33,9 +33,11 @@ public class Bullet : MonoBehaviour
 
         if (collision.gameObject.tag == "Firefly")
         {
+            GameManager.power += 1; 
             Destroy(collision.gameObject);
             Destroy(gameObject);
             score.GetComponent<Score>().increaseScore(FireflyScore);
+           
         }
 
         if (collision.gameObject.tag == "Fly")
