@@ -656,7 +656,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 207672076}
   selectedCommands:
-  - {fileID: 207672083}
+  - {fileID: 207672092}
   variables: []
   description: 
   stepPause: 0
@@ -720,7 +720,6 @@ MonoBehaviour:
   - {fileID: 207672113}
   - {fileID: 207672112}
   - {fileID: 207672111}
-  - {fileID: 207672083}
   - {fileID: 207672110}
   - {fileID: 207672109}
   - {fileID: 207672108}
@@ -763,6 +762,7 @@ MonoBehaviour:
   - {fileID: 207672116}
   - {fileID: 207672082}
   - {fileID: 207672123}
+  - {fileID: 207672083}
   suppressAllAutoSelections: 0
 --- !u!4 &207672077
 Transform:
@@ -794,7 +794,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 5
   durationOLD: 0
 --- !u!114 &207672079
 MonoBehaviour:
@@ -944,7 +944,7 @@ MonoBehaviour:
   storyText: You only prattle the whole time and do nothing! No one likes you anyway!
   description: 
   character: {fileID: 1744770056}
-  portrait: {fileID: 21300000, guid: c42f7834c67d57f479364cbc366637a1, type: 3}
+  portrait: {fileID: 21300000, guid: e65569349d1091c489cb1971fd0d0ba3, type: 3}
   voiceOverClip: {fileID: 8300000, guid: b37f8c7199401b042aa050da7d80457d, type: 3}
   showAlways: 1
   showCount: 1
@@ -971,7 +971,7 @@ MonoBehaviour:
   storyText: Don`t be afraid to miss! Do it for your best boy.
   description: 
   character: {fileID: 791184148}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 44bfffeba54bd3445a5fa39ad9d57595, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 13454e563c08a4b4ba1097b761eb57c4, type: 3}
   showAlways: 1
   showCount: 1
@@ -998,7 +998,7 @@ MonoBehaviour:
   storyText: ... At least our parents wanted me?
   description: 
   character: {fileID: 1744770056}
-  portrait: {fileID: 21300000, guid: c42f7834c67d57f479364cbc366637a1, type: 3}
+  portrait: {fileID: 21300000, guid: e65569349d1091c489cb1971fd0d0ba3, type: 3}
   voiceOverClip: {fileID: 8300000, guid: f4477b4e4c432db48ab8dd7203f26598, type: 3}
   showAlways: 1
   showCount: 1
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   storyText: Shut up, Lucas! We both know you are adopted!
   description: 
   character: {fileID: 791184148}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 44bfffeba54bd3445a5fa39ad9d57595, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 246bb00baca165243ac5d18979889316, type: 3}
   showAlways: 1
   showCount: 1
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   storyText: Are you serious!? Fuck you, Kyle!
   description: 
   character: {fileID: 1744770056}
-  portrait: {fileID: 21300000, guid: c42f7834c67d57f479364cbc366637a1, type: 3}
+  portrait: {fileID: 21300000, guid: e65569349d1091c489cb1971fd0d0ba3, type: 3}
   voiceOverClip: {fileID: 8300000, guid: d1056e39d82634f468bb4fc1ade18ee6, type: 3}
   showAlways: 1
   showCount: 1
@@ -1105,7 +1105,7 @@ MonoBehaviour:
     I miss dad...
   description: 
   character: {fileID: 791184148}
-  portrait: {fileID: 21300000, guid: 7e02887d3d574e64c912728894998b2f, type: 3}
+  portrait: {fileID: 21300000, guid: 44bfffeba54bd3445a5fa39ad9d57595, type: 3}
   voiceOverClip: {fileID: 8300000, guid: f52e8c8c104f57944b1357b8e959b9f3, type: 3}
   showAlways: 1
   showCount: 1
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 10
+    floatVal: 5
   durationOLD: 0
 --- !u!114 &207672108
 MonoBehaviour:
@@ -1562,7 +1562,7 @@ MonoBehaviour:
   storyText: 'Yes, mom! There you go! Shoot them up, just like that! '
   description: 
   character: {fileID: 791184148}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 44bfffeba54bd3445a5fa39ad9d57595, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 7b4fe428c4736fe42a98fccf8a14ba35, type: 3}
   showAlways: 1
   showCount: 1
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   storyText: And mom won`t listen to me... Does she really love us?
   description: 
   character: {fileID: 791184148}
-  portrait: {fileID: 21300000, guid: 7e02887d3d574e64c912728894998b2f, type: 3}
+  portrait: {fileID: 21300000, guid: 44bfffeba54bd3445a5fa39ad9d57595, type: 3}
   voiceOverClip: {fileID: 8300000, guid: f7aa77a9ca527bd4389af0e20f43ecce, type: 3}
   showAlways: 1
   showCount: 1
@@ -1849,11 +1849,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288954280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.240985, y: -4.665124, z: -0.1505611}
+  m_LocalPosition: {x: 9.52, y: -5.23, z: 2}
   m_LocalScale: {x: 0.26172, y: 0.26172, z: 0.26172}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1281600444}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &288954282
 SpriteRenderer:
@@ -1894,7 +1894,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 0ff678c9110ee944bbe4b18835c00aab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2582,11 +2582,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579698354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.233985, y: -5.4791236, z: -0.1505611}
+  m_LocalPosition: {x: 9.5130005, y: -6.0439997, z: 2}
   m_LocalScale: {x: 0.26172, y: 0.26172, z: 0.26172}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1281600444}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &579698356
 SpriteRenderer:
@@ -2627,7 +2627,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c230cf15ff071464fb86b620b0c5a77a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2664,11 +2664,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603255481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.200985, y: -3.2921238, z: -0.1505611}
+  m_LocalPosition: {x: 9.4800005, y: -3.8569999, z: 2}
   m_LocalScale: {x: 0.26172, y: 0.26172, z: 0.26172}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1281600444}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &603255483
 SpriteRenderer:
@@ -2709,7 +2709,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 937985d97f876c6458feb766f5f12e1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2821,6 +2821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Kyle
       objectReference: {fileID: 0}
+    - target: {fileID: 2602830492484088067, guid: dba62bd12cb4b9848bc89879c75b619b, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 44bfffeba54bd3445a5fa39ad9d57595, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dba62bd12cb4b9848bc89879c75b619b, type: 3}
 --- !u!114 &791184148 stripped
@@ -3164,11 +3168,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072511855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.253985, y: -4.009124, z: 0}
+  m_LocalPosition: {x: 9.533001, y: -4.574, z: 2.150561}
   m_LocalScale: {x: 0.26172, y: 0.26172, z: 0.26172}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 1281600444}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1072511857
 SpriteRenderer:
@@ -3209,7 +3213,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b14c34d34ef3f3d459b6984faaef6a21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3549,8 +3553,12 @@ Transform:
   - {fileID: 1922257085}
   - {fileID: 1744213129}
   - {fileID: 1983593973}
+  - {fileID: 579698355}
+  - {fileID: 288954281}
+  - {fileID: 1072511856}
+  - {fileID: 603255482}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1323958448
 GameObject:
@@ -3722,7 +3730,7 @@ Transform:
   - {fileID: 802998403}
   - {fileID: 1359852742}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359852741
 GameObject:
@@ -4642,7 +4650,7 @@ PrefabInstance:
     - target: {fileID: 3565333587055670885, guid: cdbe599f0465fbb4bba3b0b6db8df67a, type: 3}
       propertyPath: portraits.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: c42f7834c67d57f479364cbc366637a1, type: 3}
+      objectReference: {fileID: 21300000, guid: e65569349d1091c489cb1971fd0d0ba3, type: 3}
     - target: {fileID: 3565333587055670886, guid: cdbe599f0465fbb4bba3b0b6db8df67a, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4742,7 +4750,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1813860596
 GameObject:
@@ -6580,13 +6588,25 @@ PrefabInstance:
       value: MotherHurt
       objectReference: {fileID: 0}
     - target: {fileID: 4180258690577571586, guid: 424fd10675e1b4149821e82fe3c420bd, type: 3}
+      propertyPath: m_Size.x
+      value: 16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180258690577571586, guid: 424fd10675e1b4149821e82fe3c420bd, type: 3}
+      propertyPath: m_Size.y
+      value: 21.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180258690577571586, guid: 424fd10675e1b4149821e82fe3c420bd, type: 3}
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4180258690577571586, guid: 424fd10675e1b4149821e82fe3c420bd, type: 3}
       propertyPath: m_WasSpriteAssigned
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4180258690577571587, guid: 424fd10675e1b4149821e82fe3c420bd, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 60613d29541c5684eb715d7a7ff4cfac, type: 2}
     - target: {fileID: 4180258690577571588, guid: 424fd10675e1b4149821e82fe3c420bd, type: 3}
       propertyPath: m_RootOrder
       value: 9
