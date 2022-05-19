@@ -1300,6 +1300,9 @@ GameObject:
   - component: {fileID: 1639911647}
   - component: {fileID: 1639911646}
   - component: {fileID: 1639911645}
+  - component: {fileID: 1639911652}
+  - component: {fileID: 1639911651}
+  - component: {fileID: 1639911650}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1309,7 +1312,7 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &1639911645
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1358,16 +1361,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 111
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: New Block
+  blockName: MainMenu
   description: 
   eventHandler: {fileID: 1639911646}
   commandList:
+  - {fileID: 1639911652}
+  - {fileID: 1639911650}
   - {fileID: 1639911645}
+  - {fileID: 1639911651}
   suppressAllAutoSelections: 0
 --- !u!114 &1639911648
 MonoBehaviour:
@@ -1396,7 +1402,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1639911647}
   selectedCommands:
-  - {fileID: 1639911645}
+  - {fileID: 1639911650}
   variables: []
   description: 
   stepPause: 0
@@ -1422,6 +1428,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1639911650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639911644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  volume: 0.272
+  fadeDuration: 0
+  waitUntilFinished: 1
+--- !u!114 &1639911651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639911644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: ae96f08d48b29004481cd5744ecfeb8b, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1639911652
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639911644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
 --- !u!1 &1709827533
 GameObject:
   m_ObjectHideFlags: 0
