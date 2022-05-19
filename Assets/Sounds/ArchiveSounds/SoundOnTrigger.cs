@@ -8,9 +8,10 @@ public class SoundOnTrigger : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
 
-        void OnTriggerEnter(){
-Gore.Play();
-}
+        void OnTriggerEnter()
+        {
+        Gore.Play();
+        }
 
     }
 }

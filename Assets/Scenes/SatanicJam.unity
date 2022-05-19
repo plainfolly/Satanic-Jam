@@ -884,7 +884,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 207672076}
   selectedCommands:
-  - {fileID: 207672083}
+  - {fileID: 207672095}
   variables: []
   description: 
   stepPause: 0
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MainMenu
+    stringVal: Credits
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &207672084
@@ -1352,7 +1352,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &207672093
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &207672095
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 10
+    floatVal: 5
   durationOLD: 0
 --- !u!114 &207672104
 MonoBehaviour:
@@ -1755,7 +1755,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &207672114
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2022,7 +2022,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &207672127
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2036,7 +2036,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &207672128
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2054,7 +2054,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &207672129
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   waitUntilFinished: 1
 --- !u!114 &207672130
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2091,7 +2091,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &207672131
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2109,7 +2109,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &207672132
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2127,7 +2127,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &207672133
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5340,15 +5340,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565333587055670885, guid: cdbe599f0465fbb4bba3b0b6db8df67a, type: 3}
       propertyPath: nameColor.b
-      value: 0.080099694
+      value: 0.009344946
       objectReference: {fileID: 0}
     - target: {fileID: 3565333587055670885, guid: cdbe599f0465fbb4bba3b0b6db8df67a, type: 3}
       propertyPath: nameColor.g
-      value: 0.3773585
+      value: 0.6603774
       objectReference: {fileID: 0}
     - target: {fileID: 3565333587055670885, guid: cdbe599f0465fbb4bba3b0b6db8df67a, type: 3}
       propertyPath: nameColor.r
-      value: 0.21869776
+      value: 0.31700587
       objectReference: {fileID: 0}
     - target: {fileID: 3565333587055670885, guid: cdbe599f0465fbb4bba3b0b6db8df67a, type: 3}
       propertyPath: portraits.Array.data[0]
@@ -6749,7 +6749,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9acd1685dba418d4d8983cc9a0f455dc, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.152
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
