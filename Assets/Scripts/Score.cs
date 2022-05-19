@@ -9,10 +9,15 @@ public class Score : MonoBehaviour
     public int score;
     public Text textScore;
 
+
+    void Awake() 
+    {
+        DontDestroyOnLoad(this);
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+        textScore.enabled = false;
     }
 
     // Update is called once per frame
@@ -22,6 +27,7 @@ public class Score : MonoBehaviour
     }
     public void increaseScore (int value)
     {
+        textScore.enabled = true;
         score = score + value;
         textScore.text = "Score: " + score.ToString();
     }

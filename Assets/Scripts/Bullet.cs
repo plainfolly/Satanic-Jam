@@ -8,11 +8,12 @@ public class Bullet : MonoBehaviour
     public GameObject score;
     public int EnemyScore = 10;
     public int FireflyScore = 20;
-
+    
 
     void Start()
     {
         score = GameObject.FindWithTag("Score");
+
     }
 
     void OnCollisionEnter2D(Collision2D collision)

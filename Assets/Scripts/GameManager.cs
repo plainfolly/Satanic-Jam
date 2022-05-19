@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
                 power2.gameObject.SetActive(true);
                 power3.gameObject.SetActive(true);
                 usePower.gameObject.SetActive(true);
+                power = 0;
                 break;
             case 2:
                 power1.gameObject.SetActive(true);

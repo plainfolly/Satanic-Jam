@@ -8,17 +8,26 @@ public class Shooting : MonoBehaviour
     public GameObject bulletPrefab;
     public AudioSource fireSound;
 
+    public float fireSpeed = 0.2f;
+    float timer;
     public float bulletForce = 20f;
 
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        timer += Time.deltaTime;
+        if (timer >= fireSpeed)
         {
-            Shoot();
-            GetComponent<AudioSource>().Play();
+            if (Input.GetButtonDown("Fire1"))
+            {
+                Shoot();
+                GetComponent<AudioSource>().Play();
+                timer = 0;
+            }
+            
         }
+        
     }
 
     void Shoot()
