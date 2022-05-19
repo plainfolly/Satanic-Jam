@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
         GetComponent<AudioSource>().Play();
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
         Destroy(effect, 0.5f);
-        Destroy(gameObject);
+        //Destroy(gameObject);
        
 
         if (collision.gameObject.tag == "Enemy")
