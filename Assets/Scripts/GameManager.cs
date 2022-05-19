@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject heart1, heart2, heart3, power1, power2, power3, gameOver, usePower, mother, motherHurt;
     public static int health;
+    
     public static int power;
     public static bool invincible;
     private static float countdown;
@@ -62,8 +63,8 @@ public class GameManager : MonoBehaviour
                 
         }
 
-        if (power < 1)
-            power = 0;
+        //if (power < 1)
+       //     power = 0;
         switch (power)
         {
             case 3:
@@ -71,7 +72,7 @@ public class GameManager : MonoBehaviour
                 power2.gameObject.SetActive(true);
                 power3.gameObject.SetActive(true);
                 usePower.gameObject.SetActive(true);
-                power = 0;
+                
                 break;
             case 2:
                 power1.gameObject.SetActive(true);
@@ -89,9 +90,7 @@ public class GameManager : MonoBehaviour
                 power2.gameObject.SetActive(false);
                 power3.gameObject.SetActive(false);
                 
-                
-              
-              
+
                 break;
 
         }
@@ -133,5 +132,10 @@ public class GameManager : MonoBehaviour
 
         invincible = true;
        
+    }
+
+    public void SetPower(int value)
+    {
+        power = value;
     }
 }
