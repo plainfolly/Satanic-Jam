@@ -12,6 +12,14 @@ public class ShootingPower : MonoBehaviour
     public Transform firePoint5;
     public Transform firePoint6;
     public Transform firePoint7;
+    public Transform firePoint8;
+    public Transform firePoint9;
+    public Transform firePoint10;
+    public Transform firePoint11;
+    public Transform firePoint12;
+    public Transform firePoint13;
+    public Transform firePoint14;
+    public Transform firePoint15;
 
     public GameObject bulletPrefab;
 
@@ -33,6 +41,15 @@ public class ShootingPower : MonoBehaviour
             Shoot5();
             Shoot6();
             Shoot7();
+            Shoot8();
+            Shoot9();
+            Shoot10();
+            Shoot11();
+            Shoot12();
+            Shoot13();
+            Shoot14();
+            Shoot15();
+
             GameManager.power = 0;
             gameObject.SetActive(false);
         }
@@ -86,5 +103,53 @@ public class ShootingPower : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firePoint7.position, firePoint7.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint7.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot8()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint8.position, firePoint8.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint8.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot9()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint9.position, firePoint9.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint9.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot10()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint10.position, firePoint10.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint10.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot11()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint11.position, firePoint11.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint11.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot12()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint12.position, firePoint12.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint12.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot13()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint13.position, firePoint13.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint13.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot14()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint14.position, firePoint14.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint14.up * bulletForce, ForceMode2D.Impulse);
+    }
+    void Shoot15()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint15.position, firePoint15.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(firePoint15.up * bulletForce, ForceMode2D.Impulse);
     }
 }
