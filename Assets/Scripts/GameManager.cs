@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject heart1, heart2, heart3, gameOver;
     public static int health;
+    public static bool invincible;
+    private static float countdown;
 
     void Start ()
     {
@@ -16,6 +18,8 @@ public class GameManager : MonoBehaviour
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
         gameOver.gameObject.SetActive(false);
+
+        countdown = 2;
     }
 
     void Update()
@@ -50,7 +54,33 @@ public class GameManager : MonoBehaviour
                 break;
                 
         }
-    } 
 
-   
+        // Countdown
+        if (invincible)
+        {
+            if (countdown > 0)
+            {
+                countdown -= Time.deltaTime;
+            }
+            if (countdown < 0)
+            {
+                countdown = 2;
+                invincible = false;
+            }
+        } 
+    }
+
+    public static void TakeDamage()
+    {
+        if (!invincible)
+        {
+            health -= 1;
+            // TODO: Animation Mother_1 bis _3
+        }
+    }
+
+    public static void MakeInvincible()
+    {
+        invincible = true;
+    }
 }
