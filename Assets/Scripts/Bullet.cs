@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        GetComponent<AudioSource>().Play();
+        //GetComponent<AudioSource>().Play();
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
         Destroy(effect, 0.5f);
         //Destroy(gameObject);
@@ -47,6 +47,7 @@ public class Bullet : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+
     }
     
 }
