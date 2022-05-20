@@ -402,7 +402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -270.93, y: -109}
+  m_AnchoredPosition: {x: -324, y: -120}
   m_SizeDelta: {x: 751.7703, y: 98.6453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425877037
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ju
+  m_Text: Julia Stukert
 --- !u!222 &425877038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -481,7 +481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -238, y: 175}
+  m_AnchoredPosition: {x: -298.96, y: 175}
   m_SizeDelta: {x: 597.9101, y: 98.645}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &450084434
@@ -517,7 +517,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Emi
+  m_Text: Emilia Baron
 --- !u!222 &450084435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -560,7 +560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246, y: 175}
+  m_AnchoredPosition: {x: 331, y: 175}
   m_SizeDelta: {x: 751.7703, y: 98.6453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &568553428
@@ -596,7 +596,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jenny
+  m_Text: Jennifer Burger
 --- !u!222 &568553429
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 260, y: -109}
+  m_AnchoredPosition: {x: 308, y: -120}
   m_SizeDelta: {x: 751.7703, y: 98.6453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1594288001
@@ -1085,7 +1085,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Any
+  m_Text: Any Lehmann
 --- !u!222 &1594288002
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1164,7 +1164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Vlad
+  m_Text: Vladyslav Ieremenko
 --- !u!222 &1758115538
 CanvasRenderer:
   m_ObjectHideFlags: 0
