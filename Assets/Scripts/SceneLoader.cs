@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadScene(string SatanicJam)
+    public void LoadScene(string Tutorial)
     {
-        SceneManager.LoadScene(SatanicJam);
+        SceneManager.LoadScene(Tutorial);
     }
 
 }
