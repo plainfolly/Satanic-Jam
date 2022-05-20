@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
-    public GameObject heart1, heart2, heart3, power1, power2, power3, gameOver, usePower, mother, motherHurt;
+    public GameObject heart1, heart2, heart3, power1, power2, power3, gameOver, usePower, mother, motherHurt, Enemyspawner, Enemy;
     public static int health;
     
     public static int power;
     public static bool invincible;
     private static float countdown;
+
+    public bool isgameover;
 
     void Start ()
     {
@@ -20,6 +23,7 @@ public class GameManager : MonoBehaviour
         heart2.gameObject.SetActive(true);
         heart3.gameObject.SetActive(true);
         gameOver.gameObject.SetActive(false);
+
 
         power = 0;
         power1.gameObject.SetActive(false);
@@ -54,11 +58,19 @@ public class GameManager : MonoBehaviour
                 break;
 
             case 0:
-                heart1.gameObject.SetActive(false);
-                heart2.gameObject.SetActive(false);
-                heart3.gameObject.SetActive(false);
-                gameOver.gameObject.SetActive(true);
-                Time.timeScale = 0;
+                if (isgameover == false)
+                {
+                    heart1.gameObject.SetActive(false);
+                    heart2.gameObject.SetActive(false);
+                    heart3.gameObject.SetActive(false);
+                    gameOver.gameObject.SetActive(true);
+                   // Time.timeScale = 0;
+                    isgameover = true;
+                    Enemy.gameObject.SetActive(false);
+                    mother.gameObject.SetActive(false);
+                    Invoke("loadMainMenu", 3);
+                }
+               
                 break;
                 
         }
@@ -138,4 +150,11 @@ public class GameManager : MonoBehaviour
     {
         power = value;
     }
+
+    public void loadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+
 }

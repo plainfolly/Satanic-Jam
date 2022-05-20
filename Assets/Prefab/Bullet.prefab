@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.127532, y: 4.6931796}
+  m_Offset: {x: 0.127532, y: 6.080556}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +132,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.213808, y: 4.264819}
+  m_Size: {x: 4.213808, y: 1.4900665}
   m_EdgeRadius: 0
 --- !u!114 &6496421185599178366
 MonoBehaviour:
@@ -146,7 +146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7af102368f2bcb74ea8253a9ac753db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitEffect: {fileID: 3710023354351741121, guid: 127d94ad2ed139747812121b175f39f4, type: 3}
+  hitEffectEnemy: {fileID: 1817589482643643499, guid: 8a8b7f67f0d6cdb43a9c138ba6b64523, type: 3}
+  hitEffectFly: {fileID: 6640572193262212635, guid: be46833be507ae44d91c7123359c314d, type: 3}
+  hitEffectFirefly: {fileID: 4409488661796442392, guid: 42cce6d799dd01148b11794ddb915cad, type: 3}
   score: {fileID: 0}
   EnemyScore: 10
   FireflyScore: 20
