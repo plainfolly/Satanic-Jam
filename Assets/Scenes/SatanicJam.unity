@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4208093
 Transform:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4208092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.63, y: -7.06, z: 0}
+  m_LocalPosition: {x: 8.21, y: -7.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1909673706}
@@ -850,6 +850,7 @@ GameObject:
   - component: {fileID: 207672132}
   - component: {fileID: 207672131}
   - component: {fileID: 207672133}
+  - component: {fileID: 207672134}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -988,10 +989,11 @@ MonoBehaviour:
   - {fileID: 207672075}
   - {fileID: 207672081}
   - {fileID: 207672084}
+  - {fileID: 207672095}
   - {fileID: 207672098}
   - {fileID: 207672102}
   - {fileID: 207672099}
-  - {fileID: 207672095}
+  - {fileID: 207672134}
   - {fileID: 207672092}
   - {fileID: 207672133}
   - {fileID: 207672116}
@@ -2143,6 +2145,24 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &207672134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207672073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &237511103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,7 +2187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237511103}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.15, y: -7.12, z: 0}
+  m_LocalPosition: {x: 3.7, y: -7.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1909673706}
@@ -2486,7 +2506,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331538394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.05, y: -7.36, z: 0}
+  m_LocalPosition: {x: -3.01, y: -7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1909673706}
@@ -3531,7 +3551,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977606814}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -4.63, z: 0}
+  m_LocalPosition: {x: 0.46, y: -3.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047269817}
@@ -3986,7 +4006,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259257123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.8, y: 1.43, z: 0}
+  m_LocalPosition: {x: -4.68, y: 3.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2047269817}
@@ -4281,7 +4301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340117967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.51, y: -4.92, z: 0}
+  m_LocalPosition: {x: 10.58, y: -3.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1909673706}
@@ -4895,7 +4915,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498377078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.68, y: 0.48, z: 0}
+  m_LocalPosition: {x: -3.65, y: 1.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1281600444}
@@ -5596,7 +5616,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841587232}
   m_LocalRotation: {x: -0, y: -0, z: -0.45863196, w: 0.88862634}
-  m_LocalPosition: {x: -10.22, y: 4.41, z: 0}
+  m_LocalPosition: {x: -11.04, y: 1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1909673706}
@@ -6547,7 +6567,7 @@ MonoBehaviour:
   - {fileID: 977606815}
   - {fileID: 662721503}
   - {fileID: 101099669}
-  startTimeBtwSpawns: 3
+  startTimeBtwSpawns: 5
 --- !u!4 &2047269817
 Transform:
   m_ObjectHideFlags: 0
