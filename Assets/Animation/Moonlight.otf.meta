@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 186f13d7c0156d24a97f542084f53159
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Moonlight
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1f33b83bea300c946a19df9d6826ae12, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
