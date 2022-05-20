@@ -297,7 +297,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 64779607}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 64779611}
   variables: []
   description: 
   stepPause: 0
@@ -357,7 +358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  volume: 0.395
+  volume: 0.3
   fadeDuration: 0
   waitUntilFinished: 1
 --- !u!114 &64779612
